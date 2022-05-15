@@ -1,0 +1,84 @@
+:root {
+    --button-grey: #F0F0F0;
+    --hover-blue: lightblue;
+    --button-green: green;
+    --button-red: #830303;
+  }
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.gif {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    height: 300px;
+}
+
+.gif img {
+    height: 80%;
+    align-self: center;
+}
+
+#submit {
+    background-color: var(--button-green);
+    border-radius: 5px;
+    color: #fff;
+    height: 30px;
+    border: none;
+    margin-left: 5px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+#trending {
+    background-color:var(--button-red);
+    border-radius: 5px;
+    color: #fff;
+    height: 30px;
+    border: none;
+    margin-left: 5px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+#trending:hover {
+    background-color: rgb(121, 23, 23);
+    transition: 0.3s;
+}
+
+#userInput {
+    height: 25px;
+}
+
+#history {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#history button {
+    margin-left: 10px;
+    border: solid 4px;
+    border-color: var(--button-grey);
+    font-size: medium;
+    background-color: var(--button-grey);
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#history button:hover {
+    border: 4px solid var(--hover-blue);
+
+  }
+
+.output {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
